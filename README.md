@@ -1,2 +1,0 @@
-# Coursera
-Coursework repo
