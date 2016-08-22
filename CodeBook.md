@@ -6,6 +6,7 @@
 ####(activity_labels.txt) contains two columns, 6 activity numbers mapped to the 6 activity names
 ##### What are they for?: 
 * These are the descriptive names which will be swapped out for the values in the (y_test.txt) and (y_train.txt) activity number data
+
 #####Activity Number	Activity Name
 * 1	WALKING
 * 2	WALKING_UPSTAIRS
@@ -18,9 +19,12 @@
 ###### NOTE: (features_info.txt) contains a codebook with full detail for understanding the nature of the features, measurements, and summary statistics
 ##### What are they for?: 
 * These are the descriptive names which will become column headers for (x_test.txt) and (x_train.txt) measurement data files 
+
 ###### NOTE: Per the assignment, we are only interested in the Mean and Standard Deviation of features.txt and the measurement data
+
 #####Here is a list of the  46 mean features and the 33 standard deviations featuress in the file which we will be using for the assignment:
-######Mean Features:
+
+####Mean Features:
 *tBodyAcc-mean()-X,Y,Z (one for each X,Y,Z vectors)
 *tGravityAcc-mean()-X,Y,Z (one for each X,Y,Z vectors)
 *tBodyAccJerk-mean()-X,Y,Z (one for each X,Y,Z vectors)
@@ -46,7 +50,7 @@
 *fBodyBodyGyroJerkMag-mean()
 *fBodyBodyGyroJerkMag-meanFreq()
 
-######Standard Deviation Features:
+####Standard Deviation Features:
 *tBodyAcc-std()-X,Y,Z (one for each X,Y,Z vectors)
 *tGravityAcc-std()-X,Y,Z (one for each X,Y,Z vectors)
 *tBodyAccJerk-std()-X,Y,Z (one for each X,Y,Z vectors)
@@ -66,19 +70,24 @@
 *fBodyBodyGyroJerkMag-std()
 
 ###Data files are broken into the two subject groups Test and Train:
+
 ####TRAIN group data (21 subjects):
 * (X_train.txt) 7352 unlabeled observations of 561 feature variables, rows ordered to match the rows in both y_train.txt and subject_train.txt
 * (y_train.txt) 7352 activity numbers for row-mapping which activities the measurements belong to, these are swapped for descriptive names using (activities_labels.txt)
 * (subject_train.txt) 7352 subject numbers for row mapping which subjects belong to the TRAIN group
+
 ####TEST group data (9 subjects):
 * (X_test.txt) 2947 7352 unlabeled observations of 561 feature variables, rows ordered to match the rows in both y_test.txt and subject_test.txt
 * (y_test.txt) 2947 activity numbers for row-mapping which activities the measurements belong to, these are swapped for descriptive names using (activities_labels.txt)
 * (subject_test.txt) 2947 subject codes for row mapping which subjects belong to the TEST group
+
 ##### What are they for?: 
 * These are the row mapping for subject group and activities and the raw measurement data with the summary statistics
+
 #### NOTE: "Inertial Signals" data files for Test or Train are NOT needed for this assignment
 
 ###How does the script manipulate the files
+
 ####NOTE: run_analysis.R also has structural and descriptive comments, for each line of code, to explain what is happening, step-by-step 
 * 1 Read in the 2 label files and 6 data files into 8 data tables using read.table()
 * 2 Prepare the subject group data:
