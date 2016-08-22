@@ -1,6 +1,6 @@
 #Getting and Cleaning Data Assignment README
 ## Dan Lowrance 8/18/2016
-### The script Run_Analysis.R is intended to consolidate the 3 test and 3 train data files using the 2 label files, into a single tidy data table of means
+### The script Run_Analysis.R is intended to consolidate the 3 test and 3 train data files using the 2 label files, into a single tidy tab-delimited text file of means called final_dataset.txt
 
 ###Instructions per the assignment:
 * 1 Merges the training and the test sets to create one data set.
