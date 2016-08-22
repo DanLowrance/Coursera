@@ -19,6 +19,7 @@
 * (X_train.txt) 7352 unlabeled observations of 561 feature variables - gets read, stored as x_train dataframe
 * (y_train.txt) 7352 activity labels  - gets read, stored as y_train dataframe
 * (subject_train.txt) 7352 subject number labels (21 train subjects x activity samples)  - gets read, stored as sub_train dataframe
+
 ####TEST:
 * (X_test.txt) 2947 unlabeled observations of 561 feature variables - gets read, stored as x_test dataframe
 * (y_test.txt) 2947 activity labels - gets read, stored as y_test dataframe
@@ -27,7 +28,7 @@
 #### NOTE: "Inertial Signals" data files for Test or Train are NOT needed for this assignment
 
 ###Output Tidy data look like this compressed sample: 
-#####Subject_Number Train_or_Test Activity  tBodyAcc-mean()-X tBodyAcc-mean()-Y    ....  angle(Z,gravityMean)
+####Subject_Number Train_or_Test Activity  tBodyAcc-mean()-X tBodyAcc-mean()-Y    ....  angle(Z,gravityMean)
 * 1               TRAIN       LAYING      0.2215982         -0.040513953      ....    -0.93266067
 * 1               TRAIN       SITTING     0.2612376         -0.001308288      ....    -0.93266067
 * ..              .....        ....        ......             .......         ....     .........
