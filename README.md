@@ -12,6 +12,7 @@
 ###Details about the label files:
 * (activity_labels.txt) contains the 6 activity definitions 
 * (features.txt) contains the 561 features definitions
+
 #### NOTE: Only interested in the 46 mean columns and the 33 standard deviations columns of features.txt
 
 ###Details about the data files:
