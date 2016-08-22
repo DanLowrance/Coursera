@@ -28,6 +28,13 @@
 
 #### NOTE: "Inertial Signals" data files for Test or Train are NOT needed for this assignment
 
+###How to run this script run_analysis.R
+
+* 1 Download and unzip to a folder the data found here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* 2 Place the script "run_analysis.R" in the same folder as the "UCI HAR Dataset" 
+ - Make this your working directory in R
+* 3 Run the script and in a few seconds, you should see a new file appear called "final_dataset.txt"
+
 ###How does the script manipulate the files
 
 ####NOTE: run_analysis.R also has structural and descriptive comments, for each line of code, to explain what is happening, step-by-step 
